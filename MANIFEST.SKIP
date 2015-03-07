@@ -1,0 +1,5 @@
+^lib/Census/trash.pm
+^MANIFEST\.
+^.git*
+README.md
+~$

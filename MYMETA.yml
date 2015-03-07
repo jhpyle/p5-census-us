@@ -1,0 +1,32 @@
+---
+abstract: 'Programmatically retrieve demogrphic and boundary information from the U.S. Census Bureau'
+author:
+  - 'Jonathan Pyle <jpyle@litigationdatabase.org>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Census-US
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Archive::Zip: '0'
+  DBI: '0'
+  Data::Dumper: '0'
+  File::Basename: '0'
+  File::Copy: '0'
+  File::Spec: '0'
+  IO::File: '0'
+  LWP::UserAgent: '0'
+  Safe: '0'
+  Text::CSV_XS: '0'
+  XML::Twig: '0'
+version: '0.01'
